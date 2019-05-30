@@ -13,7 +13,7 @@ docker pull adoptopenjdk/openjdk10
 rm -rf teamcity-docker-minimal-agent-jdk10
 git clone https://github.com/adam00s/teamcity-docker-minimal-agent-jdk10.git
 
-/# go to docker build folder
+'# go to docker build folder
 cd teamcity-docker-minimal-agent-jdk10/ubuntu
 
 /# get agent files (change host to your teamcity server)
