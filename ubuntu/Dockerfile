@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk10:x86_64-ubuntu-jdk-10.0.2.13
+FROM adoptopenjdk/openjdk10:latest
 
 VOLUME /data/teamcity_agent/conf
 
